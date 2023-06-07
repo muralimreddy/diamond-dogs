@@ -14,6 +14,7 @@ provider "aws" {
       Owner       = "Globomantics"
       Project     = var.project
       Environment = var.environment
+      Billing = "1001"
     }
   }
 }
